@@ -1,6 +1,7 @@
 # SoftUni-Courses
 Courses from my education in Software University.
-
+<br>
+<br>
 <h2>JavaScript • Programming Basics</h2>
 <h3>Skills learned:</h3>
 <ol>
@@ -45,8 +46,8 @@ Courses from my education in Software University.
   </li>
   <li><h4>Онлайн изпит</h4></li>  
  </ol>
-
-
+<br>
+<br>
 <h2>JavaScript • Programming Fundamentals</h2>
 <h3>Skills learned:</h3>
 <ol>
@@ -212,5 +213,9 @@ Courses from my education in Software University.
   <li><h4>Mid Exam</h4></li>
   <li><h4>Final Exam</h4></li>   
 </ol>
+<br>
+<br>
+<h2>JavaScript • Advanced</h2>
+<h3>Skills learned:</h3>
 
 
