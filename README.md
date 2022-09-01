@@ -73,5 +73,101 @@ Courses from my education in Software University.
 	<li>Quantifiers and Grouping;</li>		
 	<li>Backreferences.</li>		
   </ul>
-  </li>   
+  </li>  
+  <li><h4>Language Comparison (Java, C#, Python and JavaScript)</h4></li>
+  <ul>
+	<li>Execution Model</li>
+    <li>Variables</li>
+	<li>Data Types</li>
+	<li>Printing on the Console</li>
+	<li>Conditional Statements</li>
+	<li>Loops</li>
+	<li>Development Environments (IDE)</li>
+  </ul>
+  </li> 
+  <li><h4>Git and GitHub</h4></li>
+  <ul>
+	<li>Software Configuration Management;</li>
+    <li>Introduction to Git;</li>
+	<li>Introduction to GitHub.</li>
+  </ul>
+  </li>  
+  <li><h4>HTTP Basics</h4></li>
+  <ul>
+	<li>HTTP Developer Tools;</li>
+    <li>HTML Forms, Request, Response;</li>
+	<li>URLs and ERL Structure.</li>
+  </ul>
+  </li> 
+  <li><h4>HTML & CSS Basics</h4></li>
+  <ul>
+	<li>Intro to HTML;</li>
+    <li>HTML Common Elements;</li>
+	<li>Introduction to CSS;</li>
+	<li>Selectors;</li>
+	<li>Block Elements;</li>
+	<li>Dev Tools;</li>
+	<li>Fonts.</li>
+  </ul>
+  </li> 
+  <li><h4>Software Development Concepts - Part 1</h4></li>
+  <ul>
+	<li>The 4 Skills of Sotware Engineers;</li>
+	<li>Fundamental Software Engineering Concepts;</li>
+	<li>Software Architectures, Front-End and Back-End.</li>    
+  </ul>
+  </li> 
+   <li><h4>Software Development Concepts - Part 2</h4></li>
+  <ul>
+	<li>Front-End Development Concepts;</li>
+	<li>Back-End Development Concepts;</li>
+	<li>Embedded Systems and IoT;</li> 
+	<li>Software Engineering Concepts.</li>	
+  </ul>
+  </li> 
+  <li><h4>Bitwise Operations</h4></li>
+  <ul>
+	<li>What is a Bit, Byte, KB, MB?;</li>
+	<li>Numerals Systems;</li>
+	<li>Representation of Data in Computer Memory.</li> 	
+  </ul>
+  </li> 
+  <li><h4>Problem Solving</h4></li>
+  <ul>
+	<li>Fundamental Skills of Software Engineers;</li>	
+	<li>Problems: Definition and Problem Solving;</li>
+	<li>Stages of Problem Solving;</li>
+	<li>Solving Exam Problems.</li>	
+  </ul>
+  </li> 
+  <li><h4>Database Basics</h4></li>
+  <ul>
+	<li>Databases Introduction;</li>	
+	<li>SQL vs. NoSQL Databases;</li>	
+	<li>DBMS Systems;</li>	
+	<li>Relational Databases, SQL and MySQL Database;</li>	
+	<li>NoSQL Databases and MongoDB.</li>	
+  </ul>
+  </li> 
+  <li><h4>QA Introduction</h4></li>
+  <ul>
+	<li>Software Quality Assurance;</li>	
+	<li>QA Engineers and Resposibilities;</li>	
+	<li>Bugs and Bug Trackers;</li>	
+	<li>Testing, Test Types and Test Levels;</li>	
+	<li>Test Automation, Frameworks and Tools.</li>	
+  </ul>
+  </li>
+  <li><h4>Basic Web Project</h4></li>
+  <ul>
+	<li>Node Modules (HTTP, Creating simple HTTP Server);</li>	
+	<li>Express.js Framework;</li>	
+	<li>MVC;</li>	
+	<li>MVC with Node, Express.js, Handlebars.</li>		
+  </ul>
+  </li>
+  <li><h4>Mid Exam</h4></li>
+  <li><h4>Final Exam</h4></li>   
 </ol>
+
+
