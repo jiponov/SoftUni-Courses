@@ -16,4 +16,17 @@ Courses from my education in Software University.
 	<li>Debugging and Troubleshooting.</li>
   </ul>
   </li>
+  <li><h4>Data Types and Variables</h4></li>
+  <ul>
+	<li>What is Data Type?;</li>
+    <li>let vs. var;</li>
+	<li>Strings;</li>
+	<li>Numbers;</li>
+	<li>Booleans;</li>
+	<li>typeof Operator;</li>
+	<li>Undefined and Null.</li>
+  </ul>
+  </li>
+  
 </ol>
+
