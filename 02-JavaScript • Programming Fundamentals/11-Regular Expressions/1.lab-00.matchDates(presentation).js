@@ -1,0 +1,1 @@
+let pattern = /\b\d{1,2}-(?<month>[A-Z][a-z]{2})-\d{4}\b/g
