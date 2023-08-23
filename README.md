@@ -2,11 +2,7 @@
 Courses from my education in Software University.
 <br>
 <br>
-<h2>JavaScript • Programming Basics</h2>
-<br>
-<h2>JavaScript • Programming Fundamentals</h2>
-<br>
-<h2>JavaScript • Advanced</h2>
-<br>
-<h2>JavaScript • Applications</h2>
-<br>
+<h3>JavaScript • Programming Basics</h3>
+<h3>JavaScript • Programming Fundamentals</h3>
+<h3>JavaScript • Advanced</h3>
+<h3>JavaScript • Applications</h3>
