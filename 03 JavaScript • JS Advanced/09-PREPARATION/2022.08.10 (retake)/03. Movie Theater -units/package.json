@@ -1,0 +1,15 @@
+{
+  "name": "03.-movie-theater--units",
+  "version": "1.0.0",
+  "description": "",
+  "main": "03. Movie Theater.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0"
+  }
+}
