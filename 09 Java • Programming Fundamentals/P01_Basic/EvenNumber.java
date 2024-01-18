@@ -13,6 +13,7 @@ public class EvenNumber {
 
             if (num % 2 == 0) {
                 System.out.printf("The number is: %d%n", Math.abs(num));
+                break;
             } else {
                 System.out.printf("Please write an even number.%n");
             }
