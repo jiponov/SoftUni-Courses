@@ -16,3 +16,11 @@ public class Elevator {
 }
 
 // 100/100
+
+/*
+OR:
+
+double courses = Math.ceil(1.0 * n / people);
+System.out.printf("%.0f", courses);
+
+ */
