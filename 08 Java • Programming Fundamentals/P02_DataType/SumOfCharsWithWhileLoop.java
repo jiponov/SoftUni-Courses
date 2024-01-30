@@ -2,22 +2,31 @@ package P02_DataType;
 
 import java.util.Scanner;
 
-public class SumOfChars {
+public class SumOfCharsWithWhileLoop {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
         byte n = Byte.parseByte(scanner.nextLine());
         int sum = 0;
 
-        for (int i = 1; i <= n; i++) {
-            String input = scanner.nextLine();
+        String input = scanner.nextLine().trim();
+
+        while (!input.isEmpty()) {
             char inputAsChar = input.charAt(0);
             int inputAsAsciiCode = (int) inputAsChar;
             sum += inputAsAsciiCode;
+            // System.out.println(inputAsChar);
+            // System.out.println(inputAsAsciiCode);
+
+            if (!scanner.hasNextLine()) {
+                break;
+            }
+
+            input = scanner.nextLine().trim();
         }
 
         System.out.printf("The sum equals: %d", sum);
     }
 }
 
-// 100/100
+// 80/100
