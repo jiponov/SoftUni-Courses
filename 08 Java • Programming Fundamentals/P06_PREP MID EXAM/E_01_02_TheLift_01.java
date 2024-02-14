@@ -13,7 +13,10 @@ public class E_01_02_TheLift_01 {
         int capacity = 4;
         int people = Integer.parseInt(scanner.nextLine());
         String line = scanner.nextLine();
-        List<Integer> state = Arrays.stream(line.split(" ")).map(Integer::parseInt).collect(Collectors.toList());
+        List<Integer> state = Arrays
+                .stream(line.split(" "))
+                .map(Integer::parseInt)
+                .collect(Collectors.toList());
 
         for (int i = 0; i < state.size(); i++) {
             int currentWagon = state.get(i);
