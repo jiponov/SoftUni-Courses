@@ -3,37 +3,42 @@ package P08_ObjectsAndClasses.Songs;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
-
+//100/100
 public class Main {
     public static void main(String[] args) {
+        //логиката на задачата -> входни данни, алгоритми, изходни данни
         Scanner scanner = new Scanner(System.in);
+        int countSongs = Integer.parseInt(scanner.nextLine()); //брой песните
+        List<Song> songsList = new ArrayList<>();
 
-        int numSongs = Integer.parseInt(scanner.nextLine());
+        for (int count = 1; count <= countSongs; count++) {
+            String data = scanner.nextLine(); //"{typeList}_{name}_{time}"
+            String[] songData = data.split("_");
+            //"{typeList}_{name}_{time}".split("_") -> ["{typeList}", "{name}", "{time}"]
+            String typeList = songData[0]; //плейлиста на песента
+            String name = songData[1]; //име на песента
+            String time = songData[2]; //времетраенето на песента
 
-        List<Song> songs = new ArrayList<>();
+            //ПЕСЕН
+            Song song = new Song(typeList, name, time);
 
-        for (int i = 0; i < numSongs; i++) {
-            String[] data = scanner.nextLine().split("_");
-            String type = data[0];
-            String name = data[1];
-            String time = data[2];
-
-            Song song = new Song(type, name, time);
-            song.setTypeList(type);
-            song.setName(name);
-            song.setTime(time);
-
-            songs.add(song);
+            //добавям песента към списъка с въведени песни
+            songsList.add(song);
         }
 
-        String typeList = scanner.nextLine();
-        if (typeList.equals("all")) {
-            for (Song song : songs) {
+        //пълен списък с въведените песни
+
+        String command = scanner.nextLine();
+        //1. all -> имената на всички песни в листа
+        //2. име на плейлист -> имената на всички песни в плейлиста
+        if (command.equals("all")) {
+            for (Song song : songsList) {
                 System.out.println(song.getName());
             }
         } else {
-            for (Song song : songs) {
-                if (song.getTypeList().equals(typeList)) {
+            //command е име на плейлист
+            for (Song song : songsList) {
+                if (song.getTypeList().equals(command)) {
                     System.out.println(song.getName());
                 }
             }
